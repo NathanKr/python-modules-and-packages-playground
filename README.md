@@ -9,4 +9,5 @@ experiment with python modules and packages
 in utils.py</li>
 <li>modules not within the same package can access each other using the package name check e.g. from lib.utils import add in test_utils.py and from lib.utils import add in run_lib.py</li>
 <li>run_lib.py is executed using : py run_lib.py and must not be inside lib directory. it is working when it is in lib parent directory</li>
+<li>you can invoke pytest from root directory to run the tests. more info about pytest <a href='https://github.com/NathanKr/python-unit-testing-with-pytest-playground'>here</a></li>
 </ul>
