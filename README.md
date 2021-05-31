@@ -16,7 +16,7 @@ experiment with python modules and packages
 in utils.py</li>
 <li>modules not within the same package can access each other using the package name check e.g. from myutils.utils import add in test_utils.py and from myutils.utils import add in run_lib.py</li>
 <li>run_lib.py is executed using : py run_lib.py and must not be inside myutils directory. it is working when it is in myutils parent directory</li>
-
+</ul>
 
 <h2>global package</h2>
 <ol>
