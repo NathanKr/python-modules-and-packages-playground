@@ -18,7 +18,7 @@ in utils.py</li>
 <li>run_lib.py is executed using : py run_lib.py and must not be inside myutils directory. it is working when it is in myutils parent directory</li>
 </ul>
 
-<h2>global package</h2>
+<h2>create global package flow</h2>
 <ol>
 <li>create setup.py on the project root</li>
 <li>pip install wheel (if its not allready installed)</li>
@@ -26,7 +26,7 @@ in utils.py</li>
 <li>run : pip install dist/wheel_file_inside_dit e.g pip install dist/myutils.1.0-py3-none-any.whl. this will copy some created files to python packages dir on the pc</li>
 <li>make sure the global package e.g. myutils appears in : pip list</li>
 <li>you can verify where the package installed using : pip show e.g. pip show myutils</li>
-<li>after this you can import myutils from ANY directory on the pc where it is installed</li>
+<li>after this you can import myutils from ANY directory on the pc where it is installed. test this by entering python command line and there : import myutils</li>
 </ol>
 
 

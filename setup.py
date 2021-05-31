@@ -5,5 +5,5 @@ setup(
     version='0.1.0',
     description='Nathan Krasney first python package',
     author='Nathan Krasney',
-    license='MIT',
+    license='MIT'
 )
