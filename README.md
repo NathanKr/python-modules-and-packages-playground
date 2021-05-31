@@ -25,7 +25,8 @@ in utils.py</li>
 <li>run from setup.py directory : py setup.py bdist_wheel. this will create dist , build and egginfo directories on the python project</li>
 <li>run : pip install dist/wheel_file_inside_dit e.g pip install dist/myutils.1.0-py3-none-any.whl. this will copy some created files to python packages dir on the pc</li>
 <li>make sure the global package e.g. myutils appears in : pip list</li>
-<li>you can verify where the package installed using : pip show e.g. pip show myutils
+<li>you can verify where the package installed using : pip show e.g. pip show myutils</li>
+<li>after this you can import myutils from ANY directory on the pc where it is installed</li>
 </ol>
 
 
