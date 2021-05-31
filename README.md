@@ -32,4 +32,3 @@ in utils.py</li>
 
 <h2>pytest</h2>
 this is not specific to packages but the directory tree is arranged such that you can invoke here pytest from root directory to run the tests. more info about pytest <a href='https://github.com/NathanKr/python-unit-testing-with-pytest-playground'>here</a>
->
