@@ -11,7 +11,7 @@ experiment with python modules and packages
 
 <h2>packages</h2>
 <ul>
-<li>myutils and test packages are created by adding __init__.py to the directories myutils and test respectively</li>
+<li>myutils and test packages are created by adding __init__.py to the directories myutils and test</li>
 <li>modules within the same package can access each other using . as package check e.g from .gen_utils import print_with_stars
 in utils.py</li>
 <li>modules not within the same package can access each other using the package name check e.g. from myutils.utils import add in test_utils.py and from myutils.utils import add in run_lib.py</li>
