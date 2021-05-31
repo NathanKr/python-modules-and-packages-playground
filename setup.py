@@ -5,5 +5,7 @@ setup(
     version='0.1.0',
     description='Nathan Krasney first python package',
     author='Nathan Krasney',
-    license='MIT'
+    author_email = 'natankrasney@gmail.com',
+    license='MIT',
+    install_requires=[] # can be omitted if empty
 )
