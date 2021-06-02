@@ -22,9 +22,9 @@ in utils.py</li>
 <ol>
 <li>create setup.py on the project root</li>
 <li>pip install wheel (if its not allready installed)</li>
-<li>run from setup.py directory : py setup.py bdist_wheel. this will create dist , build and egginfo directories on the python project</li>
+<li>run from setup.py directory : py setup.py bdist_wheel . this will create dist , build and egginfo directories on the python project</li>
 <li>run : pip install dist/wheel_file_inside_dit e.g pip install dist/myutils.1.0-py3-none-any.whl or pip install . from the project root. this will copy some created files to python packages dir on the pc</li>
-<li>development mode make life easy : pip install . -e (this will create link to the package project , this client will not need to uninstall myutils each time it is changing)
+<li>development mode make life easy : pip install -e . (this will create link to the package project , this client will not need to uninstall myutils each time it is changing)
 <li>make sure the global package e.g. myutils appears in : pip list</li>
 <li>you can verify where the package installed using : pip show e.g. pip show myutils</li>
 <li>after this you can import myutils from ANY directory on the pc where it is installed. test this by entering python command line and there : import myutils</li>
